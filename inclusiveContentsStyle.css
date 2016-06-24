@@ -1,0 +1,95 @@
+#inclusive_contents_home_slider {
+		height: 250px;
+    overflow: hidden;
+}
+
+ #inclusive_contents_home_slider .views-slideshow-controls-top {
+    position: relative;
+		top: 100px;
+		width: 100%;
+    z-index: 10;
+		padding: 0 3%;
+}
+
+#inclusive_contents_home_slider  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
+		position: relative;
+    top: -20px;
+}
+
+#inclusive_contents_home_slider .views-slideshow-controls-text-pause {
+		display: none;
+}
+
+#inclusive_contents_home_slider .views_slideshow_controls_text_next {
+		float: right;
+}
+
+#inclusive_contents_home_slider .views-slideshow-controls-text-previous a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos_inclusivos/images/previous_slide_icon.png") no-repeat center center / contain;
+}
+
+#inclusive_contents_home_slider .views-slideshow-controls-text-next a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos_inclusivos/images/next_slide_icon.png") no-repeat center center / contain;
+}
+
+.inclusive-contents-panel #microsite {
+		padding: 0;
+}
+
+.inclusive-contents-panel #microsite_panel .pane-menu,
+.inclusive-contents-panel #microsite_panel .pane-menu > div .menu{
+    background-color: #4bb5c2 !important;
+		color: white;
+}
+
+.inclusive-contents-panel .main-menu li a {
+    padding-bottom: 11px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    border: none !important;
+    text-transform: uppercase;
+}
+
+.inclusive-contents-panel .main-menu ul {
+    border-bottom: 3px solid #4bb5c2 !important;
+}
+
+.inclusive-contents-panel .pane-content > .menu li.parent_menu > .children_menu li a {
+    background-color: #46adb2 !important;
+}
+
+.inclusive-contents-panel .main-menu .menu .children_menu li {
+		border-bottom: 1px solid white;
+}
+
+.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
+    height: 370px !important;
+}
+
+.inclusive-contents-panel .main_container {
+		background: url('https://dl.dropboxusercontent.com/u/575652037/contenidos_inclusivos/images/background.png') white center center / contain;
+}
+
+@media only screen and (max-width: 767px) {
+		.inclusive-contents-panel .section_container.no_left_sidebar .section_content {
+		    width: 100% !important;
+		}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+		#inclusive_contents_banner .view .view-content {
+		    margin-bottom: 0;
+		}
+}
+
+@media only screen and (min-width: 1024px) {
+		#inclusive_contents_home_slider .views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide .field-content {
+				top: -150px;
+				position: relative;
+		}
+}
