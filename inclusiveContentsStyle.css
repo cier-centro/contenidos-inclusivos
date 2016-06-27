@@ -121,6 +121,12 @@
     border-right: 5px solid #97CA2D;
 }
 
+.inclusive-contents-panel .back-link,
+.inclusive-contents-panel .back-link span {
+		color: #4cb4bf;
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 767px) {
 		.inclusive-contents-panel .section_container.no_left_sidebar .section_content {
 		    width: 100% !important;
