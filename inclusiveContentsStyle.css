@@ -27,13 +27,13 @@
 #inclusive_contents_home_slider .views-slideshow-controls-text-previous a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos_inclusivos/images/previous_slide_icon.png") no-repeat center center / contain;
+		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos-inclusivos/images/previous_slide_icon.png") no-repeat center center / contain;
 }
 
 #inclusive_contents_home_slider .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos_inclusivos/images/next_slide_icon.png") no-repeat center center / contain;
+		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos-inclusivos/images/next_slide_icon.png") no-repeat center center / contain;
 }
 
 .inclusive-contents-panel #microsite {
@@ -72,7 +72,7 @@
 }
 
 .inclusive-contents-panel .main_container {
-		background: url('https://dl.dropboxusercontent.com/u/575652037/contenidos_inclusivos/images/background.png') white center center / contain;
+		background: url('https://dl.dropboxusercontent.com/u/575652037/contenidos-inclusivos/images/background.png') white center center / contain;
 }
 
 @media only screen and (max-width: 767px) {
@@ -98,3 +98,4 @@
 {
 	padding:20px;
 }
+
