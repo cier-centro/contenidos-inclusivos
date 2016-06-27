@@ -97,6 +97,30 @@
 		background-color: white;
 }
 
+.inclusive-contents-panel #microsite_panel h3 {
+		color: #96CA2D;
+		font-size: 19px;
+		margin: 5px 0;
+}
+
+.inclusive-contents-panel #microsite_panel .row {
+		background-color: #EDF8F2;
+		margin: 15px 0;
+		padding: 15px 0;
+}
+
+.inclusive-contents-panel .inclusive-contents-btn {
+		background-color: #B5E656;
+    color: #30426A;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-bottom: 5px solid #97CA2D;
+    border-right: 5px solid #97CA2D;
+}
+
 @media only screen and (max-width: 767px) {
 		.inclusive-contents-panel .section_container.no_left_sidebar .section_content {
 		    width: 100% !important;
