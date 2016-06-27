@@ -75,6 +75,15 @@
 		background: url('https://dl.dropboxusercontent.com/u/575652037/contenidos-inclusivos/images/background.png') white center center / contain;
 }
 
+.inclusive-contents-panel .active-trail.active.active-link,
+.inclusive-contents-panel .parent.active.active-link,
+.inclusive-contents-panel .parent.active-link {
+		color: #30426A !important;
+		text-decoration: underline;
+		font-weight: 700 !important;
+}
+
+
 @media only screen and (max-width: 767px) {
 		.inclusive-contents-panel .section_container.no_left_sidebar .section_content {
 		    width: 100% !important;
@@ -92,10 +101,13 @@
 				top: -150px;
 				position: relative;
 		}
+
+		.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
+		    width: 45%;
+		}
 }
 
 .inclusive-contents-panel .container-contenido-interno
 {
 	padding:20px;
 }
-
