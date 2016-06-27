@@ -83,6 +83,19 @@
 		font-weight: 700 !important;
 }
 
+.inclusive-contents-panel #microsite_panel .panel-default {
+		border: none;
+}
+
+.inclusive-contents-panel .home-container,
+.inclusive-contents-panel .inclusive-contents-container {
+		padding:20px;
+		background-color: white;
+}
+
+.inclusive-contents-panel .panels-flexible-region {
+		background-color: white;
+}
 
 @media only screen and (max-width: 767px) {
 		.inclusive-contents-panel .section_container.no_left_sidebar .section_content {
@@ -105,9 +118,4 @@
 		.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
 		    width: 45%;
 		}
-}
-
-.inclusive-contents-panel .container-contenido-interno
-{
-	padding:20px;
 }
