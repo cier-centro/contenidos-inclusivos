@@ -93,4 +93,8 @@
 				position: relative;
 		}
 }
-/*EDICION*/
+
+.inclusive-contents-panel .container-contenido-interno
+{
+	padding:20px;
+}
