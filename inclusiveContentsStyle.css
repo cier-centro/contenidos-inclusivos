@@ -68,7 +68,11 @@
 }
 
 .inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
-    height: 370px !important;
+    height: 368px !important;
+}
+
+.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:nth-child(2):hover > .children_menu {
+    height: 246px !important;
 }
 
 .inclusive-contents-panel .main_container {
@@ -145,7 +149,20 @@
 				position: relative;
 		}
 
-		.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
+		.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
+		.inclusive-contents-panel .slide .pane-content > .menu li.parent_menu > .children_menu {
 		    width: 45%;
 		}
+}
+
+.inclusive-contents-panel .labelMod
+{
+	padding: 4px;
+	font-size: 0.8em;
+}
+
+.inclusive-contents-panel #microsite_panel h4 {
+		color: #96CA2D;
+		font-size: 17px;
+		margin: 5px 0;
 }
